@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+/*  MAIN  */
+
+main {
+    flex-grow: 1;
+}
+
+/* FOOTER  */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+.mic-cam ul, .commands ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+    color: white;
+}
+
+.mic-cam ul li i, .commands ul li i {
+    display: block;
+    margin: 8px;
+}
+
+
+.mic-cam ul li :first-child {
+padding: 0 25px;
+}
+
+.mic-cam ul li, .commands ul li {
+    text-align: center;
+}
+
+
+/* MAIN  */
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+}
+
+.content-wrapper .camera img {
+    width: 100%;
+    
+}
+
+.end-buttom {
+    background-color: #4A4A4A;
+    height: 100%;
+    color: red;
+    padding: 41px;
+    line-height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+.nomeutente {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 18%;
+    width: 40%;
+    font-size: 15px;
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+
+/*  DEBUG  */
+
+.debug main {
+    padding: 20px;
+    border: 5px solid red;
+}
+
+
+/* .debug footer {
+    border: 5px solid black;
+} */
